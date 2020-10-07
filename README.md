@@ -1,18 +1,20 @@
 #Time Complexity and Big O
 
-#### What is efficiency?
+![](https://pics.me.me/when-your-interviewer-asks-for-the-time-complexity-of-your-41938233.png)
+
+### What is efficiency?
   > A measure of time and space usage. 
 
   When we write code, we want to measure how taxing a given program will be on a machine. The faster and lighter a program is, the less machine work needs to be done.
 
-#### Why increase efficiency?
+### Why increase efficiency?
 
 Efficiency in algorithms are important because:
 - Better-performing algorithms can enhance the user experience by decreasing wait times.
 - Better-performing algorithms save money by reducing storage and processing needs.
-- Algorithms and algorithm analysis are an important part of the shared language developers use to talk about programs (especially in **INTERVIEWS!**).
+- Algorithms and algorithm analysis are an important part of the shared language developers use to talk about programs (especially in INTERVIEWS).
 
-## Time Efficiency
+## Time Complexity
 The time efficiency of an algorithm refers to the time it takes for an algorithm to run, and more specifically _how the time it take for an algorithm to run increases when used to process more data._
 
 This is to say that time complexity looks at the rate of time increase as data increases. Hope you like math.
