@@ -1,4 +1,4 @@
-#Time Complexity and Big O
+# Time Complexity and Big O
 
 ![](https://pics.me.me/when-your-interviewer-asks-for-the-time-complexity-of-your-41938233.png)
 
