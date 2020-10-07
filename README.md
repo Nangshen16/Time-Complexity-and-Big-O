@@ -12,7 +12,7 @@ Efficiency in algorithms are important because:
 - Better-performing algorithms save money by reducing storage and processing needs.
 - Algorithms and algorithm analysis are an important part of the shared language developers use to talk about programs (especially in **INTERVIEWS!**).
 
-##Time Efficiency
+## Time Efficiency
 The time efficiency of an algorithm refers to the time it takes for an algorithm to run, and more specifically _how the time it take for an algorithm to run increases when used to process more data._
 
 This is to say that time complexity looks at the rate of time increase as data increases. Hope you like math.
@@ -252,5 +252,41 @@ const isPrime = num => {
     }
   }
   return true;
+}
+```
+
+
+## Space complexity
+Another complexity to take into consideration when writing code, though far less important.  Space complexity is the amount of temporary space needed for a function to run. All data types require space, so every variable, parameter, array, object, string, etc needs to be accounted for.
+
+Calculating space complexity
+
+- Most primitives (booleans, numbers, undefined, null) are constant space.
+In the case of numbers, the size of the number doesn't matter, 2 and 1,000,000 take up the same amount of memory.
+- Strings require O(n) space, where n is the string length
+- Arrays and objects take up O(n) space, where n is the number of elements in the array or key-value pairs in the object.
+
+Example of O(1) space complexity
+
+``` jsx
+function sum(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return total;
+}
+```
+
+Example of O(n) space complexity
+
+``` jsx
+function double(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+    	 let current = arr[i]
+        newArray.push(2 * arr[i]);
+    }
+    return newArray;
 }
 ```
