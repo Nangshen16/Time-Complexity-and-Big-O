@@ -106,7 +106,7 @@ const addAlltoAll = numArray => {
 }
 ```
 
-Here, we have `O(1) + O(n) * O(n) + O(1)`, simplifying to O (n<sup>2</sup> ) + `2*O(1)`.  We select our largest power and end up with `O(n <sup>2</sup> )`
+Here, we have `O(1) + O(n) * O(n) + O(1)`, simplifying to O (n<sup>2</sup> ) + `2*O(1)`.  We select our largest power and end up with O(n <sup>2</sup> )
 
 
 #### O(log(n)) (logarithmic time)
@@ -122,7 +122,7 @@ A common example is finding an item using a binary search! Here's some pseudocod
 ```javascript
 const binary_search = (array, value) => {
   let low=0
-  let high = array.size - 1
+  let high = array.length - 1
   if (high < low) return false;
   // if high and low overlap, nothing was found.
   let mid = low + ((high - low) / 2);
