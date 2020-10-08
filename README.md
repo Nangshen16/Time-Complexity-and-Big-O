@@ -106,7 +106,7 @@ const addAlltoAll = numArray => {
 }
 ```
 
-Here, we have `O(1) + O(n) * O(n) + O(1)`, simplifying to `O(n<sup>2</sup>) + 2*O(1)`.  We select our largest power and end up with `O(n<sup>2</sup>)`
+Here, we have `O(1) + O(n) * O(n) + O(1)`, simplifying to `O(n <sup>2</sup> ) + 2*O(1)`.  We select our largest power and end up with `O(n <sup>2</sup> )`
 
 
 #### O(log(n)) (logarithmic time)
